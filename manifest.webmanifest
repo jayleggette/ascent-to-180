@@ -1,0 +1,29 @@
+{
+ "name": "Ascent to 180",
+ "short_name": "Ascent",
+ "description": "LSAT prep as a climb. Adaptive practice, blind review and trap-coded explanations.",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "any",
+ "background_color": "#05080F",
+ "theme_color": "#05080F",
+ "icons": [
+  {
+   "src": "icons/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "icons/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  },
+  {
+   "src": "icons/maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}
