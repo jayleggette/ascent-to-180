@@ -4,7 +4,7 @@ An LSAT practice game. Practice score is altitude on a live 3D mountain.
 
 Adaptive practice, blind review and trap-coded explanations, in a single installable web app (HTML, CSS and JavaScript, with WebGL for the mountain). In development.
 
-Designed, written and tested by Jay Leggette.
+Designed for the next generation of prospective attorneys.
 
 ## Run it
 
