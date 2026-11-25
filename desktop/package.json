@@ -1,0 +1,52 @@
+{
+  "name": "ascent-to-180",
+  "productName": "Ascent to 180",
+  "version": "1.0.0",
+  "description": "LSAT prep as a climb. Adaptive practice, blind review and trap-coded explanations.",
+  "main": "main.js",
+  "author": "Jadon Leggette",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "app.ascent180.desktop",
+    "productName": "Ascent to 180",
+    "files": [
+      "main.js",
+      "app/**/*"
+    ],
+    "mac": {
+      "category": "public.app-category.education",
+      "target": [
+        "dmg",
+        "zip"
+      ],
+      "icon": "build/icon.png"
+    },
+    "win": {
+      "target": [
+        "nsis",
+        "zip"
+      ],
+      "icon": "build/icon.png"
+    },
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "category": "Education",
+      "icon": "build/icon.png"
+    },
+    "publish": null,
+    "directories": {
+      "buildResources": "build"
+    }
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0"
+  },
+  "repository": "https://github.com/jayleggette/ascent-to-180"
+}
