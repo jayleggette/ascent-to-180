@@ -1,7 +1,7 @@
 {
   "name": "ascent-to-180",
   "productName": "Ascent to 180",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "LSAT prep as a climb. Adaptive practice, blind review and trap-coded explanations.",
   "main": "main.js",
   "author": "Jadon Leggette",
@@ -23,25 +23,31 @@
         "dmg",
         "zip"
       ],
-      "icon": "build/icon.png"
+      "icon": "build/icon.png",
+      "artifactName": "Ascent-to-180-Mac-AppleSilicon.${ext}"
     },
     "win": {
       "target": [
         "nsis",
         "zip"
       ],
-      "icon": "build/icon.png"
+      "icon": "build/icon.png",
+      "artifactName": "Ascent-to-180-Windows-Portable.${ext}"
     },
     "linux": {
       "target": [
         "AppImage"
       ],
       "category": "Education",
-      "icon": "build/icon.png"
+      "icon": "build/icon.png",
+      "artifactName": "Ascent-to-180-Linux.${ext}"
     },
     "publish": null,
     "directories": {
       "buildResources": "build"
+    },
+    "nsis": {
+      "artifactName": "Ascent-to-180-Windows-Installer.${ext}"
     }
   },
   "devDependencies": {
